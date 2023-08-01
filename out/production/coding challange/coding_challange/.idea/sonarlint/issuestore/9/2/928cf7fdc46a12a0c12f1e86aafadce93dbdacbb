@@ -1,0 +1,11 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(°ûÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(äë÷é
+A
+java:S1172"+Remove this unused method parameter "args".(ª¦‘Ï
+E
+java:S1197"*Move the array designators [] to the type.(‰Å±èÿÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(«á·Í
+V	java:S125"<This block of commented-out lines of code should be removed.(šıèÍûÿÿÿÿ
