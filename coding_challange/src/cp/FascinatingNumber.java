@@ -29,7 +29,6 @@ public class FascinatingNumber {
     {
         Scanner s = new Scanner(System.in);
         int no =s.nextInt();
-        CharSequence seq = "123456789";
 
         String str = Integer.toString(no)+Integer.toString(no * 2)+Integer.toString(no * 3);
 
