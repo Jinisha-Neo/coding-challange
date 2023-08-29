@@ -8,27 +8,30 @@ Example 2:
 
 Input: s = "God Ding"
 Output: "doG gniD"
+
 * */
 
 package cp;
 
 import java.util.Scanner;
 
-public class ReverseString {
-    public static void main(String args[])
-    {
+public class StringReverse {
+    public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
         String sentence = s.nextLine();
-        String reverse = "";
+        String reverseSentence = "";
+        String revWord = "";
 
         String words[] = sentence.split(" ");
 
         for(String w:words){
-            StringBuffer sbr = new StringBuffer(w);
-            sbr.reverse();
-            reverse = reverse+sbr.toString()+" ";
+            for(int i = w.length()-1; i >=0; i--)
+            {
+                revWord = revWord + w.charAt(i);
+            }
+            reverseSentence = reverseSentence + revWord+" ";
+            revWord="";
         }
-        System.out.println(reverse);
-
+        System.out.println(reverseSentence);
     }
 }
