@@ -28,7 +28,6 @@ public class GoalParser2 {
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
-        StringBuilder sb = new StringBuilder();
         String ans = "";
 
         for(int i = 0; i < str.length(); i++)
