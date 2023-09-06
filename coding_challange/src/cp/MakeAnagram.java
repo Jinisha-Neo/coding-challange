@@ -23,8 +23,6 @@ k from S1.
 * */
 package cp;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class MakeAnagram {
